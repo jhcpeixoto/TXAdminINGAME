@@ -1,43 +1,26 @@
-local allowedToUse = false
-Citizen.CreateThread(function()
-    TriggerServerEvent("txadminmenu.getIsAllowed")
+RegisterCommand("admin", function(source)
+    TriggerServerEvent("txadmin_menu:open_permission", source)
 end)
 
-RegisterNetEvent("txadminmenu.returnIsAllowed")
-AddEventHandler("txadminmenu.returnIsAllowed", function(isAllowed)
-    allowedToUse = isAllowed
+RegisterNetEvent("open_menu")
+AddEventHandler("open_menu", function()
+    SetNuiFocus(true, true)
+    SendNUIMessage({
+        action = "openui",
+        display = true,
+        website = Config.site
+    })
 end)
 
--- In your resource, check "allowedToUse" whenever you want to "do" something that needs permissions, for example
-if allowedToUse then
-    -- do your cool code here
-    RegisterCommand('admin', function(source)
-        open()
-    end)
+RegisterNUICallback("fecharadmin", function(data)
+    SetNuiFocus(false, false)
+    SendNUIMessage({
+        type = 'openui',
+        display = false,
+    })
+end)
 
-    RegisterCommand('closeadmin', function(source)
-        close()
-    end)
-
-    RegisterNUICallback("fecharadmin", function(data)
-        close()
-    end)
-
-    
-    function open()
-        SetNuiFocus(true, true)
-        SendNUIMessage({
-            action = "openui",
-            display = true,
-            website = Config.site
-        })
-    end
-
-    function close()
-        SetNuiFocus(false, false)
-        SendNUIMessage({
-            type = 'openui',
-            display = false,
-        })
-    end
-end
+RegisterNetEvent("no-perms")
+AddEventHandler("no-perms", function()
+    TriggerEvent("chatMessage", "[Error]", {255,0,0}, "Sorry, but you don't have permission to do this" )
+end)

@@ -1,8 +1,9 @@
-RegisterServerEvent("txadminmenu.getIsAllowed")
-AddEventHandler("txadminmenu.getIsAllowed", function(source)
+RegisterServerEvent('txadmin_menu:open_permission')
+AddEventHandler('txadmin_menu:open_permission', function()
+    local source = source
     if IsPlayerAceAllowed(source, "txadmin.menu.perm") then
-        TriggerClientEvent("txadminmenu.returnIsAllowed", source, true)
+        TriggerClientEvent("open_menu", source)
     else
-        TriggerClientEvent("txadminmenu.returnIsAllowed", source, false)
+        TriggerClientEvent("no-perms", source)
     end
 end)
