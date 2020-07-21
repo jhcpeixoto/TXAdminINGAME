@@ -15,7 +15,7 @@
 # Precursors
 - No I, HypeLevels did not make txAdmin
 	- [txAdmin](https://github.com/tabarra/txAdmin) is mantained and created by [Tabarra](https://github.com/tabarra)
-	- Big props to you buddy, join his [Discord server](https://discord.gg/f3TsfvD) for more info/help
+	- Big props to you buddy, join his [Discord server](https://discord.gg/f3TsfvD) for more info and/or help.
 - To have the latest features available with txAdmin, always make sure you are using the LATEST <b>(not latest recommended nor optional)</b> version of [FXServer artifacts](https://runtime.fivem.net/artifacts/fivem/).
 - <img height="200" src="https://i.imgur.com/TYjiuC8.gif">
 
@@ -33,6 +33,7 @@
 		- Localhost or 127.0.0.1 will <b><strong>not work</strong></b>
 - ![Picture](https://i.imgur.com/Oqex8wG.gif)
 
-Also have in mind you cant use the FiveM login as they reject the iframe request.
-
-# When using some features that require inputs, u need to alt tab sometimes because the txAdmin popups are made in JS, so it creates an external window.
+# Common Issue/Bugs
+- You can **not** use the FiveM login button as they reject iframe request
+	- There is no current workaround, so you must use your username and password
+- When using some features that require inputs, you may need to "alt-tab" sometimes because the txAdmin popups are made in Javascript, so it creates an external window.
