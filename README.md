@@ -12,6 +12,10 @@
 
 <br/>
 
+# Precursors
+- No I, HypeLevels did not make txAdmin
+	- [txAdmin](https://github.com/tabarra/txAdmin) is mantained and created by [Tabarra](https://github.com/tabarra)
+
 # Permission Setup
 - To allow certain players to use the menu, add either of the following to your server.cfg after `ensure txadminmenu`:
 	- `add_ace identifier.steam:steamidhere "txadmin.menu.perm" allow`
