@@ -17,6 +17,7 @@
 	- [txAdmin](https://github.com/tabarra/txAdmin) is mantained and created by [Tabarra](https://github.com/tabarra)
 	- Big props to you buddy, join his [Discord server](https://discord.gg/f3TsfvD) for more info and/or help.
 - To have the latest features available with txAdmin, always make sure you are using the LATEST <b>(click the ⬇️, not latest recommended or optional)</b> version of [FXServer artifacts](https://runtime.fivem.net/artifacts/fivem/).
+	- It does not matter whether you are downloading for Linux or Windows, just that its latest
 - <img height="200" src="https://i.imgur.com/TYjiuC8.gif">
 
 # Permission Setup
