@@ -15,7 +15,7 @@
 # Precursors
 - No I, HypeLevels did not make txAdmin
 	- [txAdmin](https://github.com/tabarra/txAdmin) is mantained and created by [Tabarra](https://github.com/tabarra)
-	- Big props to you buddy, join his discord server for more info/help <a href="https://discord.gg/f3TsfvD"><img src="https://discordapp.com/api/guilds/577993482761928734/widget.png?style=shield"></img></a> 
+	- Big props to you buddy, join his [Discord server](https://discord.gg/f3TsfvD) for more info/help
 - To have the latest features available with txAdmin, always make sure you are using the LATEST <b>(not latest recommended nor optional)</b> version of [FXServer artifacts](https://runtime.fivem.net/artifacts/fivem/).
 - <img height="200" src="https://i.imgur.com/TYjiuC8.gif">
 
