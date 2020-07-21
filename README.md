@@ -15,10 +15,14 @@
 
 <br/>
 
-# To give a player the hability of opening the menu insert the following line in your server.cfg
-add_ace identifier.steam:steamidhere "txadmin.menu.perm" allow
-# or
-add_ace identifier.rockstar:licensehere "txadmin.menu.perm" allow
+# Permission Setup
+- To allow certain players to use the menu, add either of the following`to your server.cfg after `ensure txadminmenu`:
+	- `add_ace identifier.steam:steamidhere "txadmin.menu.perm" allow`
+	- `add_ace identifier.rockstar:licensehere "txadmin.menu.perm" allow`
+		- To find Steam ID's use ([VACBanned](http://www.vacbanned.com/))
+	- Action logging
+	- Brute-force protection
+- Discord Integration:
 
 # Remember to change the config.lua, add your txAdmin link! (No it cant be localhost)
 
