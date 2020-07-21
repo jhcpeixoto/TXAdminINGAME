@@ -18,12 +18,13 @@
 	- `add_ace identifier.rockstar:licensehere "txadmin.menu.perm" allow`
 		- To find Steam ID's use [VACBanned](http://www.vacbanned.com/)
 		- Rockstar license can be loacted through txAdmins Player Identifiers pop-up
+<center>![Picture](https://i.imgur.com/KA6CZux.gif)</center>
 
 # How to configure txAdminMenu
 - Locate the `config.lua` in the main directory
 	- Add your txAdmin link like this: <b>IP</b>:<b>PORT</b> 
 		- Localhost or 127.0.0.1 will <b><strong>not work</strong></b>
-![Picture](https://i.imgur.com/Oqex8wG.gif)
+<center>![Picture](https://i.imgur.com/Oqex8wG.gif)</center>
 
 Also have in mind you cant use the FiveM login as they reject the iframe request.
 
