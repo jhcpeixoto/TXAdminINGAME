@@ -15,6 +15,7 @@
 # Precursors
 - No I, HypeLevels did not make txAdmin
 	- [txAdmin](https://github.com/tabarra/txAdmin) is mantained and created by [Tabarra](https://github.com/tabarra)
+- To have the latest features available with txAdmin, always make sure you are using the LATEST <b>(not latest recommended nor optional)</b> version of FXServer artifacts.
 
 # Permission Setup
 - To allow certain players to use the menu, add either of the following to your server.cfg after `ensure txadminmenu`:
@@ -34,7 +35,5 @@ Also have in mind you cant use the FiveM login as they reject the iframe request
 
 To have the latest features always make sure you are using the LATEST (not latest recommended nor optional) version of FXServer artifacts.
 
-No, i did not make txAdmin
-# txAdmin is mantained and created by Tabarra, big props to you buddy https://github.com/tabarra/txAdmin
 
 # When using some features that require inputs, u need to alt tab sometimes because the txAdmin popups are made in JS, so it creates an external window.
