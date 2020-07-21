@@ -34,6 +34,6 @@
 - ![Picture](https://i.imgur.com/Oqex8wG.gif)
 
 # Common Issue/Bugs
-- You can **not** use the FiveM login button as they reject iframe request
-	- There is no current workaround, so you must use your username and password
+- You can **not** use the FiveM login button as they reject iframe requests.
+	- There is no current workaround, so you must use your username and password to login
 - When using some features that require inputs, you may need to "alt-tab" sometimes because the txAdmin popups are made in Javascript, so it creates an external window.
