@@ -6,7 +6,7 @@
 		<img width="420" height="237" src="docs/banner.png">
 	</p>
 	<p align="center">
-		This FiveM script does not use any framework, and it <ul>implements</ul> the <b>txAdmin</b> panel in game with the command `/admin`
+		This FiveM script does not use any framework, and it <b>implements</b> the <b>txAdmin</b> panel in game with the command `/admin`
 	</p>
 </p>
 
