@@ -1,5 +1,19 @@
-# txAdmin Menu!
-This FiveM script doesnt use a framework, and it implements the txAdmin panel in game with the command /admin
+<p align="center">
+	<h1 align="center">
+		txAdmin Menu (in-game)
+	</h1>
+	<p align="center">
+		<img width="420" height="237" src="docs/banner.png">
+	</p>
+	<h4 align="center">
+		Join our Discord Server: &nbsp; <a href="https://discord.gg/f3TsfvD"><img src="https://discordapp.com/api/guilds/577993482761928734/widget.png?style=shield"></img></a>
+	</h4>
+	<p align="center">
+		This FiveM script doesnt use a framework, and it <b>implements</b> the <b>txAdmin</b> panel in game with the command `/admin`
+	</p>
+</p>
+
+<br/>
 
 # To give a player the hability of opening the menu insert the following line in your server.cfg
 add_ace identifier.steam:steamidhere "txadmin.menu.perm" allow
