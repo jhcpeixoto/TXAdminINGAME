@@ -21,9 +21,10 @@
 
 # How to configure txAdminMenu
 - Locate the `config.lua` in the main directory
-	- Add your txAdmin link <b>IP</b>:<b>PORT</b> 
+	- Add your txAdmin link like this: <b>IP</b>:<b>PORT</b> 
 		- Localhost or 127.0.0.1 will <b><strong>not work</strong></b>
-![Picture]()
+		<br>
+![Picture](https://i.imgur.com/Oqex8wG.gif)
 
 Also have in mind you cant use the FiveM login as they reject the iframe request.
 
