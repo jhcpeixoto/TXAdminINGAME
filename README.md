@@ -14,7 +14,7 @@
 
 # Precursors
 - No I, HypeLevels did not make txAdmin
-## [txAdmin](https://github.com/tabarra/txAdmin) is mantained and created by [Tabarra](https://github.com/tabarra)
+### [txAdmin](https://github.com/tabarra/txAdmin) is mantained and created by [Tabarra](https://github.com/tabarra)
 - To have the latest features available with txAdmin, always make sure you are using the LATEST <b>(not latest recommended nor optional)</b> version of FXServer artifacts.
 
 # Permission Setup
