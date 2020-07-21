@@ -21,7 +21,7 @@
 
 # How to configure txAdminMenu
 - Locate the `config.lua` in the main directory
-	- Add your txAdmin link `IP:PORT` 
+	- Add your txAdmin link <b>IP</b>:<b>PORT</b> 
 		- Localhost or 127.0.0.1 will <b><strong>not work</strong></b>
 ![Picture]()
 
