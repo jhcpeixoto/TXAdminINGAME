@@ -24,7 +24,7 @@
 - To allow certain players to use the menu, add either of the following to your server.cfg after `ensure txadminmenu`:
 	- `add_ace identifier.steam:steamidhere "txadmin.menu.perm" allow`
 	- `add_ace identifier.rockstar:licensehere "txadmin.menu.perm" allow`
-		- To find Steam ID's use [VACBanned](http://www.vacbanned.com/)
+		- To find Steam ID's use [VACBanned](http://www.vacbanned.com/) (Remember to choose the HEX one)
 		- Rockstar license can be loacted through txAdmins Player Identifiers pop-up
 - ![Picture](https://i.imgur.com/KA6CZux.gif)
 
