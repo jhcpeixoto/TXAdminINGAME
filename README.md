@@ -38,3 +38,6 @@
 - You can **not** use the FiveM login button as they reject iframe requests.
 	- There is no current workaround, so you must use your username and password to login
 - When using some features that require inputs, you may need to "alt-tab" sometimes because the txAdmin popups are made in Javascript, so it creates an external window.
+
+# Fixed issues/bugs
+- Fixed the issue of txAdmin Server Log returning unknown instead of /admin, this is my bad. Update to the latest version to fix this issue
