@@ -1,5 +1,5 @@
-RegisterCommand("admin", function(source, args, rawcommand)
-    TriggerServerEvent('txaLogger:CommandExecuted', rawCommand)
+RegisterCommand("admin", function(source, args, logmsg)
+    TriggerServerEvent('txaLogger:CommandExecuted', logmsg)
     TriggerServerEvent("txadmin_menu:open_permission", source)
 end)
 
