@@ -1,6 +1,6 @@
 <p align="center">
 	<h1 align="center">
-		txAdmin Menu (in-game)
+		txAdmin Menu (in-game) <br>
 		<img alt="GitHub" src="https://img.shields.io/github/license/hypelevels/txadminmenu?color=informational&label=Follow%20the%20license&style=for-the-badge">
 	</h1>
 	<p align="center">
