@@ -1,4 +1,5 @@
 <p align="center">
+	<h1 align="center">https://img.shields.io/github/license/hypelevels/txadminmenu?color=critical&label=Follow%20the%20license&style=for-the-badge</h1>
 	<h1 align="center">
 		txAdmin Menu (in-game)
 	</h1>
