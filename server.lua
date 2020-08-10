@@ -1,6 +1,5 @@
 RegisterServerEvent('txadmin_menu:open_permission')
-AddEventHandler('txadmin_menu:open_permission', function()
-    local source = source
+AddEventHandler('txadmin_menu:open_permission', function(source)
     if IsPlayerAceAllowed(source, "txadmin.menu.perm") then
         TriggerClientEvent("open_menu", source)
     else
