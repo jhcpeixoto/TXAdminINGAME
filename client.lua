@@ -9,20 +9,20 @@ end)
 
 RegisterNetEvent("open_menu")
 AddEventHandler("open_menu", function()
-    SetNuiFocus(true, true)
     SendNUIMessage({
         action = "openui",
         display = true,
         website = Config.site
     })
+    SetNuiFocus(true, true)
 end)
 
 RegisterNUICallback("fecharadmin", function(data)
-    SetNuiFocus(false, false)
     SendNUIMessage({
         type = 'openui',
         display = false,
     })
+    SetNuiFocus(false, false)
 end)
 
 RegisterNetEvent("no-perms")
